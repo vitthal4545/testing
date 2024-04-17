@@ -91,6 +91,32 @@ nav {
   font-weight: 600;
 }
 
+.vitthalg {
+  color: deepskyblue;
+}
+
+.shivane {
+  color: orange;
+}
+
+.typinganimation {
+  overflow: hidden;
+  border-right: 0.13em solid rgb(46, 46, 45);
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+  animation: typewriter 4s steps(40) infinite;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
 #social-container {
   padding-top: 1rem;
   display: flex;
