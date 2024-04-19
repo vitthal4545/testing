@@ -93,6 +93,11 @@
     border: rgb(75, 73, 73) 0.1rem solid;
     border-radius: 1rem;
   }
+
+  /* contact secction */
+  .contact-info p {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -147,6 +152,25 @@
 
   .project-container {
     width: 16rem;
+  }
+
+  /* contact section */
+  .contact-main-container {
+    flex-wrap: wrap;
+  }
+
+  .email-icon {
+    height: 2rem;
+  }
+
+  .contact-icon {
+    height: 1.5rem;
+  }
+
+  /* footer */
+  footer {
+    height: 2rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -214,6 +238,16 @@
     scrollbar-width: 0;
     color: black;
   }
+
+  /* contact section */
+  .contact-container {
+    height: 12rem;
+  }
+
+  /* footer */
+  footer {
+    font-size: 0.6rem;
+  }
 }
 
 @media screen and (max-width: 360px) {
@@ -227,5 +261,29 @@
 
   #about {
     overflow: scroll;
+  }
+
+  /* contact section */
+  .contact-info p {
+    font-size: 0.8rem;
+  }
+
+  .email-icon {
+    height: 1.8rem;
+  }
+
+  .contact-icon {
+    height: 1.4rem;
+  }
+
+  /* contact section */
+  .contact-container {
+    height: 10rem;
+  }
+
+  /* footer */
+  footer {
+    height: 1.5rem;
+    font-size: 0.6rem;
   }
 }
