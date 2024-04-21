@@ -200,7 +200,11 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.8rem;
+  }
+
+  .section__text {
+    gap: 0.45rem;
   }
 
   .profileImg {
